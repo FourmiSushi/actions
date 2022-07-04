@@ -1,0 +1,10 @@
+on:
+  pull_request:
+    branches: main
+
+jobs:
+  build:
+    name: hi
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "hi"
